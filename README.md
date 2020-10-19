@@ -58,4 +58,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT)
+
+Esercizio di oggi: Laravel Molisana
+repo: laravel-molisana
+Ciao Devs,
+Da oggi iniziamo a lavorare su Molisana!
+Quindi create un nuovo progetto laravel col nome "laravel-molisana", aggiungete una rotta e una vista in cui mostrare i prodotti che trovate nel file allegato (n.b sono in formato json!) e iniziate ad abbozzare la grafica come da layout in allegato..
