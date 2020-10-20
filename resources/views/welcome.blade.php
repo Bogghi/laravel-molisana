@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <title>Molisana</title>
-</head>
+@extends('layouts.section')
+
 <body>
     @php
         
@@ -26,7 +20,7 @@
                 case "cortissima":
                     $cortissima[] = $value;
                     break;
-                default:
+                default: 
                     //..code
                     break;
             }
@@ -34,15 +28,19 @@
 
     @endphp
 
-    <header>
-        <div class="logo"></div>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Prodotti</li>
-                <li>News</li>
-            </ul>
-        </nav>
+    <header class="flex-wrapper">
+        <div class="container">
+            <div class="logo">
+            <img src="{{ asset("images/marchio-sito-test.png") }}" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li class="active">Home</li>
+                    <li>Prodotti</li>
+                    <li>News</li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
