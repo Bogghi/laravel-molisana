@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+}
+
+.flex-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    max-width: $imgWidth*3;
+    flex-wrap: wrap;
+}
+
+img {
+    width: $imgWidth;
+    padding: 10px;
+}
