@@ -1,0 +1,32 @@
+.single-prod {
+
+    .text {
+        background-color: #b8dae6;
+        color: #002d73;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            font-size: 50px;
+            padding: 40px 0px;
+            text-transform: uppercase;
+        }
+
+        .desc {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding-bottom: 150px;
+        }
+    }
+
+    .main-img {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            width: 100%;
+            padding: 0;
+        }
+    }
+
+}

@@ -21,6 +21,11 @@
   padding: 10px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -109,5 +114,35 @@ footer ul {
 footer ul li {
   line-height: 30px;
   letter-spacing: 2px;
+}
+
+.single-prod .text {
+  background-color: #b8dae6;
+  color: #002d73;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-prod .text h1 {
+  font-size: 50px;
+  padding: 40px 0px;
+  text-transform: uppercase;
+}
+
+.single-prod .text .desc {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-bottom: 150px;
+}
+
+.single-prod .main-img {
+  display: flex;
+  flex-direction: column;
+}
+
+.single-prod .main-img img {
+  width: 100%;
+  padding: 0;
 }
 

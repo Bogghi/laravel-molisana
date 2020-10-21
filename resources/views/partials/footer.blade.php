@@ -1,3 +1,4 @@
+</body>
 <footer>
     <div class="flex-wrapper">
         <div class="row">
@@ -47,3 +48,4 @@
         </div>
     </div>
 </footer>
+</html>
