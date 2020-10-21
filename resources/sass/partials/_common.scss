@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
     border: 0px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .flex-wrapper {
@@ -11,6 +12,11 @@
 
 .row {
     display: flex;
-    max-width: $imgWidth*3;
+    width: $colWidth*3;
     flex-wrap: wrap;
+}
+
+.col {
+    width: $colWidth;
+    padding: 10px;
 }

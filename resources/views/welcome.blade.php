@@ -1,4 +1,4 @@
-@extends('layouts.section')
+@extends('layouts.header')
 
 <body>
     @php
@@ -86,9 +86,7 @@
 
     </main>
     
-    <footer>
-        
-    </footer>
+    @extends('layouts.footer')
 
 </body>
 </html>

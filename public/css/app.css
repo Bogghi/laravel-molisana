@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0px;
   border: 0px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .flex-wrapper {
@@ -11,8 +12,13 @@
 
 .row {
   display: flex;
-  max-width: 1800px;
+  width: 1800px;
   flex-wrap: wrap;
+}
+
+.col {
+  width: 600px;
+  padding: 10px;
 }
 
 header {
@@ -64,5 +70,44 @@ main h2 {
   margin-top: 10px;
   text-transform: uppercase;
   color: #002d73;
+}
+
+footer {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  font-weight: 400;
+  color: gray;
+}
+
+footer img {
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+footer .footer-logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+
+footer h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+footer ul li {
+  line-height: 30px;
+  letter-spacing: 2px;
 }
 

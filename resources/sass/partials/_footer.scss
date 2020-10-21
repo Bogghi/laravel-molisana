@@ -1,0 +1,41 @@
+footer{
+
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-weight: 400;
+    color: gray;
+
+    img {
+        width: 60%;
+        margin-bottom: 10px;
+    }
+
+    .footer-logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    p {
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0px;
+        margin-bottom: 20px;
+
+        li{
+            line-height: 30px;
+            letter-spacing: 2px;
+        }
+    }
+
+}
