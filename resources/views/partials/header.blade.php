@@ -5,10 +5,6 @@
         </div>
         <nav>
             <ul>
-                
-                @php
-                    $list = ["Home","Prodotti","News"];
-                @endphp
 
                 @if ($url == "Home")
                     <a href="{{asset("home")}}"><li class="active">Home</li></a>
@@ -25,6 +21,7 @@
                     <a href="{{asset("products")}}"><li>Prodotti</li></a>
                     <a href="{{asset("news")}}"><li class="active">News</li></a>
                 @endif
+                
             </ul>
         </nav>
     </div>
